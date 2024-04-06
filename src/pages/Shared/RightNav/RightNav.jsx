@@ -20,15 +20,15 @@ const RightNav = () => {
 
             <div className=" mt-5">
                 <h1 className="text-xl font-semibold">Find Us On</h1>
-                <a className="p-4 mt-4 flex text-lg items-center border border-gray-600 rounded-t-lg" href="">
+                <a className="p-4 mt-4 flex text-lg items-center border border-gray-600 rounded-t-lg hover:bg-gray-200" href="">
                     <FaFacebook className="mr-4"></FaFacebook>
                     <span>Facebook</span>
                 </a>
-                <a className="p-4 flex text-lg items-center border-x border-x-gray-600" href="">
+                <a className="p-4 flex text-lg items-center border-x border-x-gray-600 hover:bg-gray-200" href="">
                     <FaTwitter className="mr-4"></FaTwitter>
                     <span>Twitter</span>
                 </a>
-                <a className="p-4 flex text-lg items-center border border-gray-600 rounded-b-lg" href="">
+                <a className="p-4 flex text-lg items-center border border-gray-600 rounded-b-lg hover:bg-gray-200" href="">
                     <FaInstagram className="mr-4"></FaInstagram>
                     <span>Instagram</span>
                 </a>
