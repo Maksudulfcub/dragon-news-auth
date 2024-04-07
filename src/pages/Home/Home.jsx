@@ -10,8 +10,7 @@ const Home = () => {
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
-            <h1 className="text-6xl font-poppins font-semibold">This is Home Page</h1>
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-10">
                 <div>
                     <LeftNav></LeftNav>
                 </div>
